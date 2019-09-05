@@ -1,0 +1,111 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.navbar
+{
+  background-color: #6D6A6A;
+  display: flex;	
+}
+
+.navbar li {
+  flex-direction: row;
+  display: block;
+}
+
+.navbar a
+{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 14px 28px;
+}
+
+.navbar1 li {
+  display: inline-flex;
+}
+
+.content p
+{
+  text-align: justify;
+  margin: 10px;
+  padding: 10px;
+}
+
+#toggle {
+  display: none;
+}
+
+.togglearea
+{
+  background-color: #6d6a6a;
+  border-bottom: 2px solid white;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.togglearea label {
+  background-color: white;
+  height: 45px;
+  width: 50px;
+  color: black;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.togglearea label span {
+  background-color: black;
+  height: 4px;
+  width: 70%;
+  margin: 2px 0px;
+}
+
+.togglearea {
+  display: none;
+}
+
+.navbar2 li {
+  list-style-type: none;
+  display: none;
+}
+
+@media screen and (max-width: 700px)
+{
+  .navbar {
+	  flex-direction: column;
+	  display: none;
+	}
+
+  #toggle:checked + .navbar {
+	  display: flex;
+	}
+
+	.togglearea {	
+	  display: flex;
+	}
+
+	.navbar2 {
+	  text-align: right;
+	  float: right;
+	  margin-top: -230px;
+	}
+
+	.navbar2 li {
+	  display: flex;
+	  flex-direction: column;
+	}
+
+	.navbar1 li {
+	  display: flex;
+	}
+}
