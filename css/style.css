@@ -764,3 +764,31 @@ ul.nav-tnw li:first-of-type {
   }
 
 }
+
+/* .navbar {
+  flex-direction: column;
+  display: none;
+}
+
+#toggle:checked+.navbar {
+  display: flex;
+}
+
+.togglearea {
+  display: flex;
+}
+
+.navbar2 {
+  text-align: right;
+  float: right;
+  margin-top: -230px;
+}
+
+.navbar2 li {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar1 li {
+  display: flex;
+} */
