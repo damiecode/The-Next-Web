@@ -9,7 +9,7 @@ body {
 }
 
 h5 {
-  font-family: Shentox, sans-serif;
+  font-family: 'Shentox', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: .04em;
@@ -60,10 +60,8 @@ video {
   display: inline-flex;
 }
 
-.content p {
-  text-align: justify;
-  margin: 10px;
-  padding: 10px;
+.mobile-screen-view {
+  display: none;
 }
 
 #toggle {
@@ -226,6 +224,7 @@ ul.cover-list li {
   right: 24px;
   z-index: 5;
 }
+
 
 .cover-header {
   bottom: 4px;
@@ -568,7 +567,7 @@ ul.nav-tnw li:first-of-type {
   width: 48px;
 }
 
-.time {
+.time .search{
   flex-grow: 3;
 }
 
@@ -743,6 +742,10 @@ ul.nav-tnw li:first-of-type {
     font-size: 13px;
   }
 
+  .mobile-screen-view {
+    display: none;
+  }
+
   .cover-header {
     padding: 16px 12px;
   }
@@ -764,6 +767,121 @@ ul.nav-tnw li:first-of-type {
   }
 
 }
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+   .large-screen-nav li,.large-screen-nav,.cover-logo {
+      display: none;
+   }
+
+   .nav-logo {
+     height: 50px;
+   }
+   
+   .nav-logo img {
+     margin-top: -15px;
+   }
+
+   .mobile-nav {
+      height: 20px;
+      background: #fff;
+      display: flex;
+      justify-content: space-between;
+   }
+
+   .mobile-nav .search ,.menu{
+      margin-top: 20px;
+      text-align: center;
+   }
+
+   .menu {
+      transition: .4s;
+      color: #f42;
+      display: block;
+      height: 5px;
+      width: 20px;
+      margin-right: 20px;
+   }
+
+   .section {
+      margin: 0 auto;
+      max-width: 1192px;
+      padding: 0;
+   }
+
+   .nav-message {
+      margin-top: 30px;
+      font-size: 8.5px;
+      padding: 2px;
+   }
+
+   .cover {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     height: 75vh;
+   }
+
+   .cover h2 {
+     font-size: 20px;
+   }
+
+    article:first-child h2 {
+      font-size: 20px;
+      line-height: 1;
+    }
+
+   .cover-story {
+     padding: 4px;
+     position: relative;
+     height: 30vh;
+   }
+
+   .latest-news .latest-list {
+     position: relative;
+     display: flex;
+     flex-direction: column;
+   }
+
+   .latest-news .latest-list .list {
+     padding: 8px;
+   }
+
+   .latest-news .latest-list .list-content {
+     min-height: 72px;
+     padding-left: 88px;
+     position: relative;
+   }
+
+   .latest-news .latest-list .list-content .latestimage {
+     left: 0;
+     padding-top: 75px;
+     position: absolute;
+     top: 0;
+     width: 75px;
+     background-position: 50%;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: block;
+   }
+
+   .head a {
+     font-size: 25px;
+     font-weight: 700;
+   }
+
+   .deals-head-more {
+     float: right;
+     line-height: 18px;
+     margin-top: 25px;
+     font-size: 12px;
+   }
+
+   .story-deal-discount {
+     display: none;
+   }
+
+}
+
 
 /* .navbar {
   flex-direction: column;
