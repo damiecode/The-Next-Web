@@ -64,48 +64,6 @@ video {
   display: none;
 }
 
-#toggle {
-  display: none;
-}
-
-.togglearea {
-  background-color: #6d6a6a;
-  border-bottom: 2px solid white;
-  color: white;
-  padding: 10px;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.togglearea label {
-  background-color: white;
-  height: 45px;
-  width: 50px;
-  color: black;
-  border-radius: 6px;
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.togglearea label span {
-  background-color: black;
-  height: 4px;
-  width: 70%;
-  margin: 2px 0px;
-}
-
-.togglearea {
-  display: none;
-}
-
-.navbar2 li {
-  list-style-type: none;
-  display: none;
-}
-
 .section {
   margin: 0 auto;
   max-width: 1192px;
@@ -741,35 +699,35 @@ ul.headline-list li {
 }
 
 .latestdeal-1 {
-  background: url('../images/latestdeals1.jpg')
+  background: url('../images/latestdeals1.jpg');
 }
 
 .latestdeal-2 {
-  background: url('../images/latestdeals2.jpg')
+  background: url('../images/latestdeals2.jpg');
 }
 
 .latestdeal-3 {
-  background: url('../images/latestdeals3.jpg')
+  background: url('../images/latestdeals3.jpg');
 }
 
 .latestdeal-4 {
-  background: url('../images/latestdeals4.jpg')
+  background: url('../images/latestdeals4.jpg');
 }
 
 .latestdeal-5 {
-  background: url('../images/latestdeals5.jpg')
+  background: url('../images/latestdeals5.jpg');
 }
 
 .latestdeal-6 {
-  background: url('../images/latestdeals6.jpg')
+  background: url('../images/latestdeals6.jpg');
 }
 
 .latestdeal-7 {
-  background: url('../images/latestdeals7.jpg')
+  background: url('../images/latestdeals7.jpg');
 }
 
 .latestdeal-8 {
-  background: url('../images/latestdeals8.jpg')
+  background: url('../images/latestdeals8.jpg');
 }
 
 .story-dealPrice {
