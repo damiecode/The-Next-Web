@@ -546,7 +546,7 @@ ul.headline-list li {
 }
 
 .popular-image-2 {
-  background-image: url('../images/sectionimage4.jpg');
+  background-image: url('../images/section-image-1.png');
 }
 
 .popular-image-3 {
@@ -554,7 +554,7 @@ ul.headline-list li {
 }
 
 .popular-image-4 {
-  background-image: url('../images/section-image-6.jpg');
+  background-image: url('../images/section-image-5.jpg');
 }
 
 .popular-image-5 {
@@ -562,15 +562,15 @@ ul.headline-list li {
 }
 
 .popular-image-6 {
-  background-image: url(../assets/latest-news-3.jpg);
+  background-image: url('../images/section-image-4.png');
 }
 
 .popular-image-7 {
-  background-image: url(../assets/section-image-7.jpg);
+  background-image: url('../images/section-image-6.jpg');
 }
 
 .popular-image-8 {
-  background-image: url(../assets/cover-image-1.jpg);
+  background-image: url('../images/latestnews6.jpg');
 }
 
 .section-popular-image {
@@ -671,35 +671,35 @@ ul.headline-list li {
 }
 
 .section-image-1 {
-  background-image: url(../assets/section-latest-1.jpg);
+  background-image: url('../images/sectionimage1.jpg');
 }
 
 .section-image-2 {
-  background-image: url(../assets/cover-image-2.jpg);
+  background-image: url('../images/sectionimage2.png');
 }
 
 .section-image-3 {
-  background-image: url(../assets/latest-funding-1.png);
+  background-image: url('../images/sectionimage3.png');
 }
 
 .section-image-4 {
-  background-image: url(../assets/section-latest-4.jpg);
+  background-image: url('../images/sectionimage5.jpg');
 }
 
 .section-image-5 {
-  background-image: url(../assets/section-latest-5.png);
+  background-image: url('../images/section-image-8.jpg');
 }
 
 .section-image-6 {
-  background-image: url(../assets/cover-image-3.jpg);
+  background-image: url('../images/cover-image-1.jpg');
 }
 
 .section-image-7 {
-  background-image: url(../assets/section-latest-7.jpg);
+  background-image: url('../images/section-image-3.png');
 }
 
 .section-image-8 {
-  background-image: url(../assets/section-latest-8.jpg);
+  background-image: url('../images/section-image-5.jpg');
 }
 
 .section-latest-image {
@@ -1238,7 +1238,8 @@ ul.nav-tnw li:first-of-type {
     flex-direction: column;
   }
 
-  .funding-wrapper,.sections {
+  .funding-wrapper,
+  .sections {
     display: flex;
     flex-direction: column;
   }
