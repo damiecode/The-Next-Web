@@ -60,7 +60,7 @@ video {
   display: inline-flex;
 }
 
-.nav-logo > a {
+.nav-logo>a {
   display: inline-block;
   position: relative;
   height: 80px;
@@ -600,7 +600,7 @@ a.arrow:hover::after {
   display: inline;
 }
 
-.latest-funding-list > * {
+.latest-funding-list>* {
   padding-top: 0.6em;
   line-height: 18px;
   font-weight: 300;
@@ -1035,6 +1035,7 @@ a.arrow:hover::after {
 }
 
 @media only screen and (max-width: 768px) {
+
   .nav-tnw-2 li,
   .cover-logo,
   .cover-date {
@@ -1068,9 +1069,61 @@ a.arrow:hover::after {
     grid-template-rows: auto;
     grid-template-areas: "1fr 1fr 1fr";
   }
+
+  .latest-funding-list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .funding-wrapper {
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    grid-template-rows: auto;
+    grid-template-areas: "1fr 1fr 1fr";
+  }
+
+  .latest-funding {
+    margin-bottom: 10px;
+  }
+
+  .latest-funding-head a {
+    margin-bottom: 25px;
+  }
+
+  .latest-funding-end {
+    display: none;
+  }
+
+  .latest-funding ul {
+    float: left;
+    margin-top: 50px;
+    margin-left: -63%;
+  }
+
+  .latest-funding ul li {
+    margin-left: -50px;
+    margin-top: 10px;
+    font-weight: 1000
+  }
+
+  .latest-funding-list li:first-child {
+    margin-left: -30%;
+  }
+
+  .latest-funding-list li:nth-child(2) {
+    border: none;
+  }
+
+  .sections {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+    grid-template-areas: "1fr 1fr";
+  }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
+
   .large-screen-nav li,
   .large-screen-nav,
   .cover-logo {
@@ -1203,6 +1256,8 @@ a.arrow:hover::after {
 
   .latest-funding ul {
     float: left;
+    margin-top: 5px;
+    margin-left: -2%;
   }
 
   .latest-funding ul li {
@@ -1210,7 +1265,7 @@ a.arrow:hover::after {
   }
 
   .latest-funding-list li:first-child {
-    margin: 14px;
+    margin-left: 15px; 
   }
 
   .latest-funding-list li:nth-child(2) {
