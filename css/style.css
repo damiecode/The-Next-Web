@@ -1034,7 +1034,7 @@ a.arrow:hover::after {
   color: #f42;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .nav-tnw-2 li,
   .cover-logo,
   .cover-date {
