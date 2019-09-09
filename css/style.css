@@ -112,7 +112,6 @@ video {
   padding: 16px 0;
 }
 
-
 .nav-menu {
   display: flex;
   flex-direction: row;
@@ -123,15 +122,6 @@ video {
 
 .nav-menu li {
   margin-right: 20px;
-}
-
-.nav-tnw li:hover,
-.nav-tnw-2 li:hover {
-  color: #fff;
-}
-
-.nav-menu li:hover {
-  color: #000;
 }
 
 .nav-menu-search {
@@ -184,6 +174,24 @@ video {
   color: #000;
 }
 
+.latest-funding-list li {
+  display: inline-block;
+  padding: 0 8px;
+  box-sizing: border-box;
+}
+
+ul.cover-list li {
+  display: inline-block;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+
+ul.headline-list li {
+  display: inline-block;
+  margin-top: 4px;
+  margin-right: 8px;
+}
+
 ul.nav-tnw {
   display: flex;
   flex-direction: row;
@@ -227,8 +235,41 @@ ul.nav-tnw li {
   margin-left: 12px;
 }
 
+.section-popular-list li {
+  display: inline-block;
+}
+
+.latest-funding ul li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.latest-funding-list li:first-of-type {
+  padding-left: 0;
+}
+
 ul.nav-tnw li:first-of-type {
   color: white;
+}
+
+.footer-links-social li a {
+  background: #333;
+  border-radius: 50%;
+  display: block;
+  height: 40px;
+  padding: 12px;
+  text-align: center;
+  width: 40px;
+  box-sizing: border-box;
+}
+
+.nav-tnw li:hover,
+.nav-tnw-2 li:hover {
+  color: #fff;
+}
+
+.nav-menu li:hover {
+  color: #000;
 }
 
 .menu,
@@ -258,6 +299,10 @@ ul.nav-tnw li:first-of-type {
 
 .cover h2 {
   margin-bottom: 0.25em;
+}
+
+.deals-head h2 {
+  float: left;
 }
 
 article:first-child h2 {
@@ -315,29 +360,11 @@ article:first-child h2 {
   color: hsla(0, 0%, 100%, 0.6);
 }
 
-.latest-funding-list li {
-  display: inline-block;
-  padding: 0 8px;
-  box-sizing: border-box;
-}
-
 .section-popular-list {
   color: hsla(0, 0%, 100%, 0.6);
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
-}
-
-ul.cover-list li {
-  display: inline-block;
-  margin-top: 4px;
-  margin-right: 8px;
-}
-
-ul.headline-list li {
-  display: inline-block;
-  margin-top: 4px;
-  margin-right: 8px;
 }
 
 .cover article:first-child {
@@ -542,13 +569,13 @@ a.arrow:hover::after {
   padding: 4px;
 }
 
-.latest-funding ul li {
-  display: inline;
-  margin-left: 10px;
-}
-
 .latest-funding .story a {
   position: relative;
+}
+
+.list-content h4 a:hover {
+  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.25);
+  color: #f42;
 }
 
 .latest-funding ul li a:hover {
@@ -557,10 +584,6 @@ a.arrow:hover::after {
 
 .latest-funding-list {
   display: inline;
-}
-
-.latest-funding-list li:first-of-type {
-  padding-left: 0;
 }
 
 .latest-funding-list>* {
@@ -662,11 +685,6 @@ a.arrow:hover::after {
   color: #aaa;
 }
 
-.list-content h4 a:hover {
-  box-shadow: inset 0 -1px 0 rgba(255, 68, 34, 0.25);
-  color: #f42;
-}
-
 .sections {
   margin-bottom: 40px;
   display: grid;
@@ -764,10 +782,6 @@ a.arrow:hover::after {
   margin-bottom: 6px;
   font-weight: 700;
   line-height: 1.1;
-}
-
-.section-popular-list li {
-  display: inline-block;
 }
 
 .section-popular-list-item-author::after {
@@ -926,10 +940,6 @@ a.arrow:hover::after {
   margin-bottom: 24px;
 }
 
-.deals-head h2 {
-  float: left;
-}
-
 .deals-head-more {
   color: #f42;
   float: right;
@@ -993,17 +1003,6 @@ a.arrow:hover::after {
 .footer-links-social li {
   display: inline-block;
   margin: 0 3px;
-}
-
-.footer-links-social li a {
-  background: #333;
-  border-radius: 50%;
-  display: block;
-  height: 40px;
-  padding: 12px;
-  text-align: center;
-  width: 40px;
-  box-sizing: border-box;
 }
 
 .footer-links-social li a .icon {
@@ -1111,6 +1110,10 @@ a.arrow:hover::after {
     justify-content: space-between;
   }
 
+  .search {
+    margin-left: 50%;
+  }
+
   .mobile-nav .search,
   .menu {
     margin-top: 20px;
@@ -1124,10 +1127,6 @@ a.arrow:hover::after {
     height: 5px;
     width: 20px;
     margin-right: 20px;
-  }
-
-  .search {
-    margin-left: 50%;
   }
 
   .cover h2 a {
