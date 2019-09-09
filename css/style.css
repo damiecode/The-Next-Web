@@ -86,18 +86,12 @@ video {
   height: 60vh;
 }
 
-.nav {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .nav-logo {
   background: linear-gradient(to bottom right, #c09, #f42 85%);
   background-color: #f42;
   display: block;
   z-index: 5;
-  padding: 16px 20px;
+  padding: 0;
   left: 0;
   position: absolute;
   top: 0;
@@ -178,6 +172,22 @@ video {
   display: inline-block;
   padding: 0 8px;
   box-sizing: border-box;
+}
+
+
+.footer-links-menu li {
+  font-weight: 500;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 24px;
+  margin: 0 4px;
+  color: #aaa;
+}
+
+.footer-links-social li {
+  display: inline-block;
+  margin: 0 3px;
 }
 
 ul.cover-list li {
@@ -433,10 +443,6 @@ article:first-child h2 {
   font-size: 20px;
 }
 
-.latest-news {
-  margin-top: 24px;
-}
-
 h2.head {
   margin-bottom: 14px;
   margin-top: 14px;
@@ -466,12 +472,6 @@ h2.head {
 a.arrow:hover,
 a.arrow:hover::after {
   color: rgb(0, 0, 0);
-}
-
-.latest-news .latest-list {
-  position: relative;
-  display: flex;
-  flex-direction: column;
 }
 
 .latest-news {
@@ -679,6 +679,10 @@ a.arrow:hover::after {
   font-size: 12px;
   line-height: 18px;
   padding: 10px 16px;
+}
+
+.footer-legal .wrapper span {
+  display: inline-block;
 }
 
 .latest-funding .story .story-byline span {
@@ -1000,34 +1004,15 @@ a.arrow:hover::after {
   margin-bottom: 1.5em;
 }
 
-.footer-links-social li {
-  display: inline-block;
-  margin: 0 3px;
-}
-
 .footer-links-social li a .icon {
   font-size: 18px;
   color: white;
-}
-
-.footer-links-menu li {
-  font-weight: 500;
-  text-transform: uppercase;
-  display: inline-block;
-  font-size: 13px;
-  line-height: 24px;
-  margin: 0 4px;
-  color: #aaa;
 }
 
 .footer-legal .wrapper {
   margin: 0 auto;
   max-width: 1192px;
   padding: 0 20px;
-}
-
-.footer-legal .wrapper span {
-  display: inline-block;
 }
 
 .footer-legal .wrapper .logo {
