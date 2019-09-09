@@ -190,6 +190,10 @@ video {
   margin: 0 3px;
 }
 
+.section-popular-list li {
+  display: inline-block;
+}
+
 ul.cover-list li {
   display: inline-block;
   margin-top: 4px;
@@ -245,10 +249,6 @@ ul.nav-tnw li {
   margin-left: 12px;
 }
 
-.section-popular-list li {
-  display: inline-block;
-}
-
 .latest-funding ul li {
   display: inline;
   margin-left: 10px;
@@ -264,6 +264,15 @@ ul.nav-tnw li {
   border-style: solid;
 }
 
+.nav-menu li:hover {
+  color: #000;
+}
+
+.nav-tnw li:hover,
+.nav-tnw-2 li:hover {
+  color: #fff;
+}
+
 ul.nav-tnw li:first-of-type {
   color: white;
 }
@@ -275,6 +284,10 @@ ul.nav-tnw li:first-of-type {
   position: relative;
 }
 
+.cover a {
+  color: #fff;
+}
+
 .footer-links-social li a {
   background: #333;
   border-radius: 50%;
@@ -284,15 +297,6 @@ ul.nav-tnw li:first-of-type {
   text-align: center;
   width: 40px;
   box-sizing: border-box;
-}
-
-.nav-tnw li:hover,
-.nav-tnw-2 li:hover {
-  color: #fff;
-}
-
-.nav-menu li:hover {
-  color: #000;
 }
 
 .menu,
@@ -314,10 +318,6 @@ ul.nav-tnw li:first-of-type {
   background: #fff;
   display: flex;
   justify-content: space-between;
-}
-
-.cover a {
-  color: #fff;
 }
 
 .cover h2 {
