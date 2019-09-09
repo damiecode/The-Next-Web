@@ -12,7 +12,7 @@ h5 {
   font-family: 'Shentox', sans-serif;
   font-weight: 500;
   text-transform: uppercase;
-  letter-spacing: .04em;
+  letter-spacing: 0.04em;
   line-height: 1.5;
 }
 
@@ -39,7 +39,7 @@ video {
 }
 
 .navbar {
-  background-color: #6D6A6A;
+  background-color: #6d6a6a;
   display: flex;
 }
 
@@ -58,6 +58,14 @@ video {
 
 .navbar1 li {
   display: inline-flex;
+}
+
+.nav-logo >a {
+  display: inline-block;
+  position: relative;
+  height: 80px;
+  padding: 16px 20px;
+  box-sizing: border-box;
 }
 
 .mobile-screen-view {
@@ -183,7 +191,6 @@ ul.cover-list li {
   right: 24px;
   z-index: 5;
 }
-
 
 .cover-header {
   bottom: 4px;
@@ -817,14 +824,6 @@ ul.headline-list li {
   margin: 0;
 }
 
-.nav-logo>a {
-  display: inline-block;
-  position: relative;
-  height: 80px;
-  padding: 16px 20px;
-  box-sizing: border-box;
-}
-
 .nav-logo img {
   height: 16px;
   width: 66px;
@@ -1054,6 +1053,7 @@ ul.nav-tnw li:first-of-type {
 }
 
 @media only screen and (max-width: 768px) {
+
   .nav-tnw-2 li,
   .cover-logo,
   .cover-date {
@@ -1089,7 +1089,7 @@ ul.nav-tnw li:first-of-type {
   }
 }
 
-@media only screen and (min-width : 320px) and (max-width : 480px) {
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 
   .large-screen-nav li,
   .large-screen-nav,
@@ -1119,7 +1119,7 @@ ul.nav-tnw li:first-of-type {
   }
 
   .menu {
-    transition: .4s;
+    transition: 0.4s;
     color: #f42;
     display: block;
     height: 5px;
