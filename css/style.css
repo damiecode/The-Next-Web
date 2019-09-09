@@ -60,7 +60,7 @@ video {
   display: inline-flex;
 }
 
-.nav-logo>a {
+.nav-logo > a {
   display: inline-block;
   position: relative;
   height: 80px;
@@ -173,7 +173,6 @@ video {
   padding: 0 8px;
   box-sizing: border-box;
 }
-
 
 .footer-links-menu li {
   font-weight: 500;
@@ -601,7 +600,7 @@ a.arrow:hover::after {
   display: inline;
 }
 
-.latest-funding-list>* {
+.latest-funding-list > * {
   padding-top: 0.6em;
   line-height: 18px;
   font-weight: 300;
@@ -1036,7 +1035,6 @@ a.arrow:hover::after {
 }
 
 @media only screen and (max-width: 768px) {
-
   .nav-tnw-2 li,
   .cover-logo,
   .cover-date {
@@ -1073,7 +1071,6 @@ a.arrow:hover::after {
 }
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
-
   .large-screen-nav li,
   .large-screen-nav,
   .cover-logo {
