@@ -39,7 +39,7 @@ video {
 
 nav ul {
   margin-left: -7.5%;
-} 
+}
 
 .nav {
   display: flex;
@@ -1026,6 +1026,9 @@ a.arrow:hover::after {
     display: none;
   }
 
+  .nav-tnw {
+    margin-left: 0px;
+  }
 
   .nav-logo > a {
     display: inline-block;
@@ -1100,27 +1103,25 @@ a.arrow:hover::after {
   }
 
   .latest-funding-head a {
-    margin-bottom: 25px;
+    margin-bottom: 10px;
   }
 
   .latest-funding-end {
     display: none;
   }
 
-  .latest-funding ul {
-    float: left;
-    margin-top: 50px;
-    margin-left: -56%;
+  .deals-head {
+    display: flex;
+    flex-direction: column;
   }
 
   .latest-funding ul li {
-    margin-left: -50px;
     margin-top: 10px;
     font-weight: 1000;
   }
 
   .latest-funding-list li:first-child {
-    margin-left: -34%;
+    margin-left: 2%;
   }
 
   .latest-funding-list li:nth-child(2) {
@@ -1247,7 +1248,7 @@ a.arrow:hover::after {
     display: block;
   }
 
-  .latest-funding-list {
+  .deals-head {
     display: flex;
     flex-direction: column;
   }
@@ -1287,7 +1288,7 @@ a.arrow:hover::after {
   .deals-head-more {
     float: right;
     line-height: 18px;
-    margin-top: 25px;
+    margin-top: 2px;
     font-size: 12px;
   }
 
