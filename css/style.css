@@ -32,6 +32,15 @@ video {
   max-width: 100%;
 }
 
+.hidden {
+  display: none !important;
+  position: absolute;
+}
+
+nav ul {
+  margin-left: -7.5%;
+} 
+
 .nav {
   display: flex;
   flex-direction: column;
@@ -60,12 +69,8 @@ video {
   display: inline-flex;
 }
 
-.nav-logo > a {
-  display: inline-block;
-  position: relative;
-  height: 80px;
-  padding: 16px 20px;
-  box-sizing: border-box;
+.nav-logo {
+  display: none;
 }
 
 .mobile-screen-view {
@@ -84,26 +89,6 @@ video {
   grid-template-rows: 50% 50%;
   grid-template-areas: "cover-1 cover-2""cover-1 cover-3";
   height: 60vh;
-}
-
-.nav-logo {
-  background: linear-gradient(to bottom right, #c09, #f42 85%);
-  background-color: #f42;
-  display: block;
-  z-index: 5;
-  padding: 0;
-  left: 0;
-  position: absolute;
-  top: 0;
-  height: 80px;
-  width: 106px;
-  margin: 0;
-}
-
-.nav-logo img {
-  height: 16px;
-  width: 66px;
-  padding: 16px 0;
 }
 
 .nav-menu {
@@ -178,15 +163,15 @@ video {
   font-weight: 500;
   text-transform: uppercase;
   display: inline-block;
-  font-size: 13px;
+  font-size: 12px;
   line-height: 24px;
-  margin: 0 4px;
+  margin: 0 2px;
   color: #aaa;
 }
 
 .footer-links-social li {
   display: inline-block;
-  margin: 0 3px;
+  margin: 0;
 }
 
 .section-popular-list li {
@@ -1034,11 +1019,40 @@ a.arrow:hover::after {
   color: #f42;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
   .nav-tnw-2 li,
   .cover-logo,
   .cover-date {
     display: none;
+  }
+
+
+  .nav-logo > a {
+    display: inline-block;
+    position: relative;
+    height: 80px;
+    padding: 16px 20px;
+    box-sizing: border-box;
+  }
+
+  .nav-logo {
+    background: linear-gradient(to bottom right, #c09, #f42 85%);
+    background-color: #f42;
+    display: block;
+    z-index: 5;
+    padding: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    height: 80px;
+    width: 106px;
+    margin: 0;
+  }
+
+  .nav-logo img {
+    height: 16px;
+    width: 66px;
+    padding: 16px 0;
   }
 
   .nav-menu li {
@@ -1121,7 +1135,7 @@ a.arrow:hover::after {
   }
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 768px) {
   .large-screen-nav li,
   .large-screen-nav,
   .cover-logo {
@@ -1144,7 +1158,7 @@ a.arrow:hover::after {
   }
 
   .search {
-    margin-left: 50%;
+    margin-left: 80%;
   }
 
   .mobile-nav .search,
@@ -1191,7 +1205,7 @@ a.arrow:hover::after {
   }
 
   .cover h2 {
-    font-size: 20px;
+    font-size: 30px;
   }
 
   article:first-child h2 {
