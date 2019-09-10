@@ -1110,7 +1110,7 @@ a.arrow:hover::after {
   .latest-funding ul {
     float: left;
     margin-top: 50px;
-    margin-left: -63%;
+    margin-left: -56%;
   }
 
   .latest-funding ul li {
@@ -1120,7 +1120,7 @@ a.arrow:hover::after {
   }
 
   .latest-funding-list li:first-child {
-    margin-left: -30%;
+    margin-left: -34%;
   }
 
   .latest-funding-list li:nth-child(2) {
