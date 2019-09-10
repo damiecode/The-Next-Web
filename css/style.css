@@ -1027,7 +1027,7 @@ a.arrow:hover::after {
   }
 
   .nav-tnw {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .nav-logo > a {
